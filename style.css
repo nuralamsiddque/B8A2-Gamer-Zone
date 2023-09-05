@@ -79,7 +79,7 @@ body {
     border-radius: 5px;
 }
 
-.list_item a {
+.list_item li a {
     color: #3C354F;
     font-weight: 500;
 }
