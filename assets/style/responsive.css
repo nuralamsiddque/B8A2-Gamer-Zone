@@ -1,0 +1,211 @@
+@media (max-width: 1199.98px) {  }
+
+@media (max-width: 1399.98px) {  }
+
+@media (max-width: 991.98px) { 
+    /* mavbar section */
+    .primery_menu {
+        flex-flow: column wrap;
+    }
+
+    .list_item {
+        flex-direction: column;
+    }
+
+    .header_area {
+        padding: 60px 0 0;
+        box-shadow: none;
+    }
+
+    /* hero section */
+    .hero_area {
+        background-position: center bottom;
+        padding: 100px 0 165px;
+    }
+
+    .hero_inner {
+        flex-flow: column-reverse;
+    }
+
+    .hero_right {
+        padding-bottom: 134px;
+    }
+    /* We are gamer section Start */
+    .gramer_inner {
+        flex-flow: column wrap;
+    }
+
+    .gramer_right {
+        text-align: center;
+        padding: 30px 100px 90px;
+    }
+
+    /* video section start */
+    .video_sec {
+        padding: 90px 0 0;
+    }
+    .video_inner {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .box {
+        width: 400px;
+    }
+
+    /* Play Instantly start  */
+    .play_inner {
+        flex-flow: column wrap;
+    }
+
+    .play_text {
+        text-align: center;
+        padding: 40px 100px;
+    }
+
+    .game_inner {
+        flex-flow: column wrap;
+    }
+
+    .game_text {
+        text-align: center;
+        padding: 150px 100px 50px;
+    }
+
+    .play_game {
+        padding-bottom: 80px;
+    }
+
+    /* Careers section start */
+    .career_inner {
+        flex-flow: column;
+        padding: 0 100px;
+    }
+
+    .career_img {
+        padding-top: 50px;
+    }
+
+    /* image box start */
+    section.images_box {
+        padding: 90px 0;
+    }
+
+    /* footer */
+    .menu_list ul {
+        gap: 30px;
+    }
+
+    .trams_list {
+        gap: 30px;
+    }
+ }
+ 
+ @media (max-width: 767.98px) {  
+    /* We are gamer section Start */
+    .gramer_right {
+        padding: 30px 30px 60px;
+    }
+
+    .video_sec {
+        padding: 60px 0 0;
+    }
+
+    .play_text {
+        padding: 30px 30px;
+    }
+
+    .game_text {
+        padding: 100px 30px 0;
+    }
+
+    .careers {
+        padding: 60px 0;
+    }
+
+    .career_inner {
+        padding: 0 30px;
+    }
+
+    .menu_list ul {
+        gap: 8px;
+    }
+
+    ul.trams_list {
+        flex-direction: column;
+    }
+
+    footer.foter_aera {
+        padding: 90px 2px;
+    }
+ }
+
+ @media (max-width: 575.98px) {
+
+    .hero_area {
+        padding: 100px 0 100px;
+    }
+
+    .hero_left {
+        flex-basis: 100%;
+        text-align: center;
+    }  
+
+    .hero_left h3 {
+        font-size: 38px;
+    }
+
+    .btn_sec {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gramer_right h2 {
+        font-size: 38px;
+    }
+
+    .video_title h2 {
+        font-size: 38px;
+    }
+
+    .play_text h2, .game_text h2 {
+        font-size: 38px;
+    }
+
+    .play_instranty {
+        padding: 50px 0 100px;
+    }
+
+    .career_list {
+        flex-direction: column;
+    }
+
+    .images_inner {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .careers::after {
+        background: url(assets/img/Vector\ 2.png) no-repeat bottom right;
+        background-size: contain;
+    }
+
+    .box {
+        width: 320px;
+        text-align: center;
+    }
+
+    .boxs {
+        flex: 1;
+    }
+
+    .footer_icon_list ul {
+        flex-flow: wrap;
+    }
+
+    .menu_list ul {
+        flex-direction: column;
+        align-items: center;
+ }
+
+}
