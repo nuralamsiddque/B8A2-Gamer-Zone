@@ -79,6 +79,11 @@ body {
     border-radius: 5px;
 }
 
+.list_item a {
+    color: #3C354F;
+    font-weight: 500;
+}
+
 .list_item a:hover {
     transform: scale(1.5);
     color: #FFA41A;

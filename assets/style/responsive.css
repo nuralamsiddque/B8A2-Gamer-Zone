@@ -138,6 +138,10 @@
     footer.foter_aera {
         padding: 90px 2px;
     }
+
+    .footer_logo img {
+        max-width: 40%;
+    }
  }
 
  @media (max-width: 575.98px) {
